@@ -1,24 +1,9 @@
-var table = document.getElementById('table');
-
-for (var i = 1; i <= 3; i++) {
-	var tr = document.createElement('tr'); //создаем tr-ку
-
-	//Заполняем tr-ку td-шками:
-	for (var j = 1; j <= 3; j++) {
-		var td = document.createElement('td'); //создаем td-шку
-		td.innerHTML = j; //пишем в нее текст
-
-		tr.appendChild(td); //добавляем созданную td-шку в конец tr-ки
-	}
-
-	table.appendChild(tr); //добавляем созданную tr-ку в конец таблицы
-}
 
 
 
 
 
-/*var budget,
+var budget,
 	name,
 	price,
 	time;
@@ -88,8 +73,7 @@ mainList.shopGoods.forEach(function(item, i, arr) {
 	alert('У нас вы можете купить: ' + (i += 1) + ': ' + item);
 });
 /*mainList.employersHiring();
-mainList.dayBudget(Math.round());*
+mainList.dayBudget(Math.round());*/
 mainList.workTime();
 console.log(mainList.shopGoods);
 console.log(mainList);
-*/
